@@ -1,0 +1,27 @@
+PREREQ A B C D
+PREREQ B E
+PREREQ D E F
+PREREQ E G
+PREREQ F H
+PREREQ H I
+LEARN G
+   Learning G
+LEARN A
+   Learning E
+   Learning B
+   Learning C
+   Learning I
+   Learning H
+   Learning F
+   Learning D
+   Learning A
+FORGET A
+   Forgetting A
+   Forgetting D
+   Forgetting F
+   Forgetting H
+   Forgetting I
+   Forgetting C
+   Forgetting B
+   Forgetting E
+END

@@ -1,0 +1,20 @@
+PREREQ fireball burning_cascade magic_missile
+PREREQ burning_cascade magic_missile
+PREREQ flaming_mantle burning_cascade magic_missile
+PREREQ shining_sphere_of_protection burning_cascade sparks
+LEARN magic_missile
+LEARN fireball
+LEARN minor_heal
+FORGET magic_missile
+LEARN shining_sphere_of_protection
+LEARN flaming_mantle
+ENUM
+FORGET fireball
+FORGET magic_missile
+FORGET flaming_mantle
+FORGET magic_missile
+LEARN magic_missile
+FORGET burning_cascade
+FORGET shining_sphere_of_protection
+FORGET burning_cascade
+END
